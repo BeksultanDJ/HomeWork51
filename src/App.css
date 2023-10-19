@@ -1,0 +1,29 @@
+body {
+    font-family: "Academy Engraved LET";
+    font-size: 20px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App h1 {
+    margin: 20px 0 0 0;
+}
+
+.lottery-balls {
+    display: flex;
+    padding: 40px 0;
+}
+
+.ball {
+    margin: 0 20px;
+    border: 1px dashed;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+}

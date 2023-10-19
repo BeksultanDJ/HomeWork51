@@ -22,7 +22,7 @@ function App() {
 
         <div>
             <div className="App">
-                <h1>Лотерея 5/36</h1>
+                <h1>Lottery 5/36</h1>
                 <div className="lottery-balls">
                     {numbers.map((number, index) => (
                         <LotteryBall key={index} number={number} />
